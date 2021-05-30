@@ -18,5 +18,9 @@ Small library to collect statistics of Covid cases in Vietnam as well as in the 
     print_r($result);
 
 ```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 ## Resource
 Data is crawl at the address: `https://ncovi.vnpt.vn`
