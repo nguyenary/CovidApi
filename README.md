@@ -12,7 +12,7 @@ Small library to collect statistics of Covid cases in Vietnam as well as in the 
     $ncovi = new Covid();
     $result = $ncovi->get();
 
-    // Option json decode (Default format: json)
+    // Option json decode to array (Default format: json)
     // $result = $ncovi->decode(true);
 
     print_r($result);
