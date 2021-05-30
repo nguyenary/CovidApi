@@ -1,4 +1,4 @@
-# API Statistics Of Covid Cases
+# Statistics API Of Covid Cases
 Small library to collect statistics of Covid cases in Vietnam as well as in the world
 ## Usage
 - Import file `lib/Covid.php` into your project
