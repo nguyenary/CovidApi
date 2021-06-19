@@ -1,4 +1,7 @@
 <?php
+
+namespace Covid;
+
 class Covid
 {
     const API_URL = 'https://ncovi.vnpt.vn/thongtindichbenh_v2';
