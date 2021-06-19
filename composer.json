@@ -3,5 +3,15 @@
     "description": "This is a small project of mine to provide API for statistics of covid cases in Vietnam as well as in the world using PHP language.",
     "require": {
         "php": ">=7.2"
+    },
+    "suggest": {
+        "ext-json": "*"
+    },
+    "authors": [
+    {
+      "name": "nguyenary",
+      "email": "nguyenary.dev@gmail.com"
     }
+  ],
+  "license": "MIT"
 }
