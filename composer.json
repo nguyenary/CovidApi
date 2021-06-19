@@ -2,6 +2,6 @@
     "name": "nguyenary/CovidApi",
     "description": "This is a small project of mine to provide API for statistics of covid cases in Vietnam as well as in the world using PHP language.",
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2"
     }
 }
