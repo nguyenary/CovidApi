@@ -1,5 +1,8 @@
 <?php
-require_once('lib/Covid.php');
+
+use App\Covid;
+
+require_once('vendor/autoload.php');
 
 $ncovi = new Covid();
 $result = $ncovi->get();

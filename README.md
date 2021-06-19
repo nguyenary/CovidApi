@@ -1,18 +1,22 @@
 # Statistics API Of Covid Cases
 Small library to collect statistics of Covid cases in Vietnam as well as in the world
 ## Usage
-- Import file `lib/Covid.php` into your project
+- Run command: `composer install`
+- Require file: `vendor/autoload.php`
 - Initialize `new Covid()` and point to get() method to get data
 - Example:
+
 ```php
 <?php
 
-    require_once('lib/Covid.php');
+    use App\Covid;
+
+    require_once('vendor/autoload.php');
 
     $ncovi = new Covid();
     $result = $ncovi->get();
 
-    // Option json decode to array (Default format: json)
+    // Option json decode (Format default: json)
     // $result = $ncovi->decode(true);
 
     print_r($result);

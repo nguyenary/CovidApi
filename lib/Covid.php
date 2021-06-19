@@ -1,6 +1,6 @@
 <?php
 
-namespace Covid;
+namespace App;
 
 class Covid
 {
