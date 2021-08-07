@@ -22,6 +22,7 @@ Small library to collect statistics of Covid cases in Vietnam as well as in the 
     print_r($result);
 
 ```
+- Install for PHP Project use: `composer require nguyenary/covid-api`
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
